@@ -1,0 +1,5 @@
+f = open("/Users/adityakumarsingh/VS CODE PYTHON/BASIC PYTHON/CLASS7/PART1/file2.txt")
+f.seek(0)
+data = f.read(5)
+print(data)
+f.close()
