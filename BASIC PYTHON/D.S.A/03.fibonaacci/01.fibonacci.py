@@ -1,9 +1,9 @@
 
 ## fibonacci number
-def func(num):
-    if num==0 or num==1:
-        return num
-    return func(num-1)+func(num-2)
+def func(n):
+    if n==0 or n==1 :
+        return n
+    return func(n-1)+func(n-2)
 print(func(8))
-## t.c = 0(2**n)
-## s.c = 0(n)
+#. T.C = 0(2**N)
+#. S.C = 0(N)
