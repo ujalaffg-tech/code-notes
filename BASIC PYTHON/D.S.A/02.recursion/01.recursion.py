@@ -1,29 +1,5 @@
 
-#- tail recursion
-count = 0
-def func():
-    global count
-    if count==3:
-        return
-    count+=1
-    func()
-    print("aditya")
-func()
-#. T.C = 0(N)
-#. S.C = 0(N) (STACK SPACE)
-
-#- head recursion
-def func(x,n):
-    if(n==0):
-        return
-    print(x)
-    func(x,n-1)
-func(15,4)
-#. T.C = 0(N)
-#. S.C = 0(N)
-
-
-#| print 1 to n using head recursion
+#| print 1 to n using tail recursion
 def func(x,n):
     if x>n:
         return
@@ -33,14 +9,14 @@ func(1,15)
 #. T.C = 0(N)
 #. S.C = 0(N)
 
+#| print 1 to n using head recursion
+def func(x):
+    if x==0:
+        return 
+    func(x-1)
+    print(x)
+func(5)
 
-#| print 1 to n using tail recursion
-def func(n):
-    if n==0:
-        return
-    func(n-1)
-    print(n)
-func(4)
 #. T.C = 0(N)
 #. S.C = 0(N)
 
@@ -55,7 +31,7 @@ func(0,1,5)
 #. S.C = 0(N)
 
 
-#| functional recursion
+#|🫆 functional recursion
 def func(n):
     if n==1:
         return 1
@@ -64,7 +40,7 @@ func(5)
 #. T.C = 0(N)
 #. S.C = 0(N)
 
-#| find factorial
+#|🫆 find factorial
 def fact(n):
     if n==1:
         return 1

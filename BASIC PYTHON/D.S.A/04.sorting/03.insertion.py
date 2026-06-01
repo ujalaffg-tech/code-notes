@@ -1,26 +1,24 @@
 
 #| insertion sort for assending order
-nums = [5,8,1,6,9,2,4]
+nums = [5,8,4,1,9,2,4]
 def func(x):
-    l = len(x)
-    for i in range(1,l):
-        key = nums[i]
+    for i in range(1,len(x)):
+        key = x[i]
         j = i-1
-        while j>=0 and x[j]>key:
+        while j>=0 and key<x[j]:
             x[j+1]=x[j]
             j-=1
         x[j+1]=key
 func(nums)
 print(nums)
 
-#| insertion sort for assending order
-nums = [5,8,1,6,9,2,4]
+#| insertion sort for dessending order
+nums = [5,8,4,1,9,2,4]
 def func(x):
-    l = len(x)
-    for i in range(1,l):
+    for i in range(1,len(x)):
         key = x[i]
         j = i-1
-        while j>=0 and x[j]<key:
+        while j>=0 and key>x[j]:
             x[j+1]=x[j]
             j-=1
         x[j+1]=key

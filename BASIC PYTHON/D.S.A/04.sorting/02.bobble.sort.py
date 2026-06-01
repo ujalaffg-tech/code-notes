@@ -1,7 +1,6 @@
 
-
 #| bobble sort for assending order
-nums = [5,8,1,6,9,2,4]
+nums = [5,8,4,6,9,2,1]
 def func(x):
     l = len(nums)
     for j in range(l-1,0,-1):

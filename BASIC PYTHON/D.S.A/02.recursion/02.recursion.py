@@ -11,7 +11,7 @@ print(num)
 #. T.C = 0(N/2)
 #. S.C = 0(N/2)
 
-#-2 loop se
+#- loop se
 n = [5,7,3,2,6,1,5,9]
 def func(num):
     left= 0
@@ -25,7 +25,7 @@ func(n)
 #. T.C = 0(N/2)
 #. S.C = 0(1)
 
-#-3 num = [5,7,1,6,2,3,5,9]
+#-2 num = [5,7,1,6,2,3,5,9]
 num = [5,7,3,2,6,1,5,9]
 def func(arrs,left,right):
     if left>=right:
@@ -37,7 +37,7 @@ print(num)
 #. T.C = 0(right-left)
 #. S.C = 0(right-left)
 
-#-4 check palindrome using to recursion
+#-3 check palindrome using to recursion
 n = "adad"
 def check(x,a,left,right):
     if left>right:
@@ -48,7 +48,7 @@ print(check(list(n),n,0,len(n)-1))
 #. T.C = 0(N/2)
 #. S.C = 0(N/2)
 
-#-5 loop se
+#- loop se
 word = "nitin"
 def check(h):
     x = list(h)
@@ -63,7 +63,7 @@ check(word)
 #. T.C = 0(N/2)
 #. S.C = 0(N)
 
-#-6 check pallindrome for digit
+#- check pallindrome for digit
 num = 121445
 x = list(str(num))
 left = 0

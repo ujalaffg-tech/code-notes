@@ -33,7 +33,10 @@ for val in m:
             count+=1
     print(val,"-",count)
 #. T.C = 0(M*N)
-#. S.C = 0(1)
+#. S.C = 0(1) 
+'''S.C = O(1) ✅
+Kyunki koi naya data structure nahi banaya,
+ sirf simple variables use kiye hain.'''
 
 #|3
 n= [5,3,2,2,1,5,5,7,5,10] 

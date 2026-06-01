@@ -20,12 +20,15 @@ print(count)
 #.  S.C = 0(1)
 
 ## count digit
-num = 56789
+num = -44545
 from math import log10
-if num == 0:
-    print(1)
+if num>=0:
+    if num == 0:
+        print(1)
+    else:
+        print(int(log10(num)) + 1)
 else:
-    print(int(log10(num)) + 1)
+    print("none")
 #.  T.C = 0(1)
 #.  S.C = 0(1)
 

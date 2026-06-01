@@ -14,17 +14,6 @@ for i in m:
 #. S.C = 0(1)
 
 #|2
-s = "asdfsdsdssaaddasdwss"
-y = ["a","s","d","f"]
-hash_list = [0]*26
-for val in s:
-    hash_list[ord(val)-ord('a')]+=1
-for i in y:
-    print(i,'-',hash_list[ord(i)-ord('a')])
-#. T.C = 0(S+Y)
-#. S.C = 0(1)
-
-#|3
 s = "aA12baaB22cC3A222A3dD43eE5QAf2F6"
 y = ["a", "b", "2", "A", "e", "3"]
 hash_lower = [0]*26

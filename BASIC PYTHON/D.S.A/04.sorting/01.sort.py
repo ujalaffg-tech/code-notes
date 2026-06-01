@@ -1,5 +1,5 @@
 
-#| sorting for assending order
+#| selection sort for assending order
 nums = [5,7,8,4,1,6,9,2]
 def func(x):
     l = len(x)
@@ -15,7 +15,7 @@ print(nums)
 #. S.C = 0(1) naya list nahi ban raha
 
 
-#| sorting for dessending order
+#| selection sort for dessending order
 nums = [5,7,8,4,1,6,9,2]
 def func(x):
     l = len(x)
