@@ -9,7 +9,7 @@ def func(x):
                 x[i],x[i+1]=x[i+1],x[i]
 func(nums)
 print(nums)
-#. T.C = 0(N**2)
+#. T.C = 0(N**2)n 
 #. S.C = 0(1) naya list nahi ban raha
 
 #| bobble sort dessending order
