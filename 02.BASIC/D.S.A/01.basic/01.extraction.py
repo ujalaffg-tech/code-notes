@@ -4,8 +4,8 @@
 n = 7395
 while n>0:
     val= n%10
-    n//=10
     print(val)
+    n//=10
 #.  T.C = 0(LOG N)
 #.  S.C = 0(1)
 

@@ -23,4 +23,4 @@ def func(x):
 func(nums)
 print(nums)
 #. T.C = 0(N**2)
-#. S.C = 0(1) 
+#. S.C = 0(1)

@@ -5,3 +5,9 @@ print("My Name is Aditya.","My age is 19.") ## , mtlb space
 print(23)
 print(5+6)
 
+## paranthisis ()
+## curly bracket{}
+## squre bracket[]
+## single quotes ''
+## double quotes ""
+## triple quotes ''' '''
