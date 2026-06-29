@@ -1,3 +1,5 @@
+
+#| Implementing Linear Search
 nums = [2,3,4,3,3,23,4,4,322]
 check = 4
 def findd(x):

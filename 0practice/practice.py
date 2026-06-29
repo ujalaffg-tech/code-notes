@@ -1,10 +1,6 @@
 
-nums=[1,0,3,4]
+prices = [7,2,1,5,6,4,8]
 def check(x):
-    n = len(x)
-    i = 0
-    for val in x:
-        i+=val
-    return int(n*(n+1)/2)-i
-print(check(nums))
+    
 
+    

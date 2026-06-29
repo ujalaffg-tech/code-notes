@@ -1,5 +1,15 @@
 
-#| Find Missing Number in an Array -
+#|1 Find Missing Number in an Array -
+nums=[1,0,3,4]
+def check(x):
+    n = len(x)
+    for i in range(0,n+1):
+        if i not in x:
+            return i
+        
+print(check(nums))
+
+## Find Missing Number in an Array -
 nums=[1,0,3,4]
 def check(x):
     n = len(x)
@@ -9,16 +19,6 @@ def check(x):
         
         else:
             return i
-print(check(nums))
-
-#|1 Find Missing Number in an Array -
-nums=[1,0,3,4]
-def check(x):
-    n = len(x)
-    for i in range(0,n+1):
-        if i not in x:
-            return i
-        
 print(check(nums))
 
 #|2 Find Missing Number in an Array -
@@ -35,7 +35,7 @@ def check(x):
             return k
 print(check(nums))
 
-#| Find Missing Number in an Array -
+#|3 Find Missing Number in an Array -
 nums=[1,0,3,4]
 def check(x):
     n = len(x)

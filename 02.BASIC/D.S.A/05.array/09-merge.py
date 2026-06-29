@@ -1,3 +1,5 @@
+
+#| Merge 2 Sorted Arrays Without Duplicates - 
 nums1 = [1,1,1,2,4,5,5,6]
 nums2 = [1,2,2,3,6,6,7,9]
 def merge(x,y):
