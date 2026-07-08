@@ -7,8 +7,8 @@ def check(x):
     for i in range(0,len(nums)):
         if x[i]==1:
             count+=1
-        else:
             result = max(result,count)
+        else:
             count = 0
     return result
 print(check(nums))
