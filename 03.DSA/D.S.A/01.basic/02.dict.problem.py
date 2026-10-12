@@ -1,66 +1,48 @@
 
-#|1 
-n= [5,3,2,2,1,5,5,7,5,10] 
-m= [10,111,1,9,5,67,2]
-dict = {}
-for val in m:
-    dict[val] = 0
-for i in n:
-    if i in dict:
-        dict[i]+=1
-print(dict)
-#. T.C = 0(M+N)
-#. S.C = 0(M)
+#|1
+m= [5,3,2,2,1,5,5,7,5,10] 
+n= [10,111,1,9,5,67,2]
+def check(x,y):
+    hashmap = {}
+    for val in x:
+        hashmap[val]=hashmap.get(val,0)+1
+    for val2 in y:
+        print(val2,"-",hashmap.get(val2,0))
+check(m,n)
 
-#|✅
-d = [5,3,2,2,1,5,5,7,5,10]
-dict = {}
-for val in d:
-    dict[val] = 0
-for i in range(len(d)):
-        dict[d[i]]+=1
-print(dict)
-#. T.C = 0(2*M) = 0(M)
-#. S.C = 0(D)
+#. T.C = O(M+N) 
+#. S.C = O(K), where K = number of unique elements in x.
 
 #|2
-n= [5,3,2,2,1,5,5,7,5,10] 
-m= [10,111,1,9,5,67,2]
-for val in m:
-    count = 0
-    for i in n:
-        if i == val:
-            count+=1
-    print(val,"-",count)
-#. T.C = 0(M*N)
-#. S.C = 0(1) 
-'''S.C = O(1) ✅
-Kyunki koi naya data structure nahi banaya,
- sirf simple variables use kiye hain.'''
+m= [5,3,2,2,1,5,5,7,5,10] 
+n= [10,111,1,9,5,67,2]
+def check(x,y):
+    hashmap= {}
+    for val in y:
+        hashmap[val]=0
+    for val2 in x:
+        if val2 in dict:
+            hashmap[val2]+=1
+    return hashmap
+print(check(m,n))
+
+#. T.C = O(M+N)
+#. S.C = O(N)
 
 #|3
-n= [5,3,2,2,1,5,5,7,5,10] 
-m= [10,111,1,9,5,67,2]
-dict = {}
-for val in n:
-    dict[val] = dict.get(val,0)+1
-for i in m:
-    if i in dict:
-        print(i,"-",dict[i])
-    else:
-        print(i,"-",0)
-#. T.C = 0(M+N)
-#. S.C = 0(N)
+m= [5,3,2,2,1,5,5,7,5,10] 
+n= [10,111,1,9,5,67,2]
+def check(x,y):
+    for val in y:
+        count = 0
+        for val2 in x:
+            if val2 == val:
+                count+=1
+        print(val,"-",count)
+check(m,n)
 
-#|✅
-d = [5,3,2,2,1,5,5,7,5,10]
-dict = {}
-for val in d:
-    dict[val] = dict.get(val,0)+1
-print(dict)
-#. T.C = 0(D)
-#. S.C = 0(D)
+#. T.C = O(M * N)
+#. S.C = O(1)
 
-'''Golden Rule:
-Jab bhi Dictionary use ho → S.C hamesha O(N) hoga,
-jahan N = stored elements ki count '''
+
+

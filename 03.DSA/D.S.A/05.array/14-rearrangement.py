@@ -1,5 +1,13 @@
 
-#|1 Rearrange Array Elements by Sign - (optimal solution)
+#| You are given an integer array nums containing 
+#| an equal number of positive and negative integers.
+'''Rearrange the array so that:
+The first element is positive.
+Positive and negative elements appear alternately.
+The relative order of positive numbers remains the same.
+The relative order of negative numbers also remains the same.
+Return the rearranged array.'''
+
 nums = [5,10,-3,-1,-10,6]
 def check(x):
     n = len(x)
@@ -16,7 +24,18 @@ def check(x):
     return result
 print(check(nums))
 
-#- Rearrange Array Elements by Sign - 
+#: T.C = O(N)
+#: S.C = O(N)
+
+#- You are given an integer array nums containing 
+#- an equal number of positive and negative integers.
+'''Rearrange the array so that:
+The first element is positive.
+Positive and negative elements appear alternately.
+The relative order of positive numbers remains the same.
+The relative order of negative numbers also remains the same.
+Return the rearranged array.'''
+
 nums = [5,10,-3,-1,-10,6]
 def check(x):
     list1 = []
@@ -32,5 +51,9 @@ def check(x):
         x[i*2]=list1[i]
         x[(i*2)+1] = list2[i]
         i+=1
+    return x
 check(nums)
 print(nums)
+
+#: T.C = O(N)
+#: S.C = O(N)

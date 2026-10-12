@@ -1,5 +1,8 @@
 
-#|1 Move Zeros to the End of the List -
+#| Given an integer array nums, move all the 0s to the end of
+#| the array while maintaining the relative order of the non-zero elements.
+#| Modify the array in-place.
+
 nums = [1,2,0,4,3,0,0,3,5,1]
 def check(x):
     
@@ -20,7 +23,12 @@ def check(x):
 check(nums)
 print(nums)
 
-#|- Move Zeros to the End of the List -
+#. T.C = O(N)
+#. S.C = O(1)
+
+#-Given an integer array nums, move all the 0s to the end of
+#- the array while maintaining the relative order of the non-zero elements.
+
 nums = [1,2,0,4,3,0,0,3,5,1]
 def check(x):
 
@@ -36,8 +44,9 @@ def check(x):
 
     for  j in range(i,n):
         x[j]=0
-    return result
 
 check(nums)
 print(nums)
 
+#. T.C = O(N) + O(K) + O(N-K) = 0(N)
+#. S.C = O(K) where k = number of non zero elements in x

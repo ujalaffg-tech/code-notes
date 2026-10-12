@@ -1,5 +1,8 @@
 
-#|1 Find Missing Number in an Array -
+#| You are given an array nums containing n distinct numbers
+#| taken from the range 0 to n. Exactly one number is missing from the range.
+#| Return the missing number.
+
 nums=[1,0,3,4]
 def check(x):
     n = len(x)
@@ -9,7 +12,13 @@ def check(x):
     return int(n*(n+1)/2-i)
 print(check(nums))
 
-#- Find Missing Number in an Array -
+#: T.C = O(N)
+#: S.C = O(1)
+
+#- You are given an array nums containing n distinct numbers
+#- taken from the range 0 to n. Exactly one number is missing from the range.
+#- Return the missing number.
+
 nums=[17,4,6,3,1,2,4,0]
 def check(x):
     n = len(x)
@@ -23,7 +32,13 @@ def check(x):
             return k
 print(check(nums))
 
-#-3 Find Missing Number in an Array - worst case 
+#: T.C = O(N)
+#: S.C = O(N)
+
+#- You are given an array nums containing n distinct numbers
+#- taken from the range 0 to n. Exactly one number is missing from the range.
+#- Return the missing number.
+
 nums=[1,0,3,4]
 def check(x):
     n = len(x)
@@ -31,3 +46,6 @@ def check(x):
         if i not in x:
             return i
 print(check(nums))
+
+#: T.C = O(N ** 2)
+#: S.C = O(1)

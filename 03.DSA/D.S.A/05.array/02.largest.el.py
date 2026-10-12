@@ -1,5 +1,7 @@
 
-#| Find the Largest Element in an Array - 
+#| Given an integer array nums, return the largest element
+#| present in the array. If the array is empty, return None.
+
 nums = [55,32,-97,99,3,67]
 def large(x):
     if len(x)==0:
@@ -10,3 +12,5 @@ def large(x):
     return largest_no
 print(large(nums))
 
+#. T.C = O(N)
+#. S.C = O(1)

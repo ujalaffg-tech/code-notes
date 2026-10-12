@@ -1,13 +1,16 @@
 
-#| Check if an Array is Sorted - 
-nums = [16,34,56,78,90]
+#| Given an integer array nums, determine whether the array 
+#| is sorted in non-decreasing order.
+
+nums = [16,16,56,78,90]
 def check(x):
-    if len(x)==0:
-        return 
-    for i in range(len(x)-1):
+    for i in range((len(x)-1)):
         if x[i]>x[i+1]:
-            return False
-    return True
+            return "False"
+    return "True"
 print(check(nums))
-           
+
+#. T.C = O(N)
+#. S.C = O(1)
+
 

@@ -1,12 +1,18 @@
 
-#| Best Time to Buy and Sell Stock - (optimal solution)
-prices = [1]
-def check(x):
-    miniidx = float("inf")
-    max_profit = 0
-    n = len(x)
-    for i in range(0,n):
-        miniidx = min(miniidx,x[i])
-        max_profit = max(max_profit,x[i]-miniidx)
-    return max_profit
-print(check(prices))
+#| write a python program to take three different numbers
+#| and print the number that lies between the other two numbers.
+
+a = int(input("enter number : "))
+b = int(input("enter number : "))
+c = int(input("enter number : "))
+if (a<b and a>c)  or (a<c and a>b):
+    print(a)
+elif (b<a and b>c) or (b<c and b>a) :
+    print(b)    
+elif (c<a and c>b) or (c>a and c<b):
+    print(c)
+
+
+
+    
+

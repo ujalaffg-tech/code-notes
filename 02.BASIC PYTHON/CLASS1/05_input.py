@@ -1,5 +1,8 @@
 
 #.type conversion 
+#: int(), float(), str() aur bool() ka use karke in chaaron 
+#: data types ki values ko ek type se doosre type mein convert
+#: kar sakte hain, agar value conversion ke liye valid ho.
 #: digits ka type change karke str,int,floot kar sakte hain , 
 a = str(5)
 print(type(a)) 

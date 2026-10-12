@@ -1,6 +1,8 @@
 
+#| Given an integer array nums, return the second largest 
+#| distinct element present in the array. If the array does not 
+#| contain a second distinct largest element, return None.
 
-#| Find the Second Largest Element in an Array -
 nums = [50, 99, 30, 99]
 def check(x):
     largest = float("-inf")
@@ -19,3 +21,6 @@ def check(x):
     return s_largest
 
 print(check(nums))
+
+#. T.C = O(N)
+#. S.C = O(1)

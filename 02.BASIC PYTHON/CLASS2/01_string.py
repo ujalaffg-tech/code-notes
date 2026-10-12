@@ -12,7 +12,6 @@ print("nik")
 #:alg line ke liye
 print("hello" , end = "\n")
 print("aditya" )
-
 #: yah immutable hai
 # name = "aditya"
 # name[0]= "bicky"

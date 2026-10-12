@@ -1,72 +1,83 @@
 
+#| Programming
+''' Programming ka matlab computer ko instructions dena,
+taaki woh hamara kaam kar sake. '''
 #| python
-'''Sir, Python ek programming language hai
-jo bahut simple aur easy hai.
-Iska syntax English jaisa hota hai 
-jiske karan begineers bhi assani se samagh pate hain'''
-#= Python kyun use karte hain?
-'''Sir, python ka use web devlopment,ai-ml,data science,cyber sequrite automation,
-almost har field  me hain 
-Aur code bhi kam likhna padta hai doosri language ke compare me
+'''Python ak open source free programing language hain jiska use ham 
+computer ko instruction dene ke liye karte hain ki kya karna hain  '''
+'''iska use web devlopment,ai-ml,data science,cyber sequrite automation,
+almost har field  me hain .
+- Aur doosri language ke compare me code kam likhna padta hai
 jiske karan ham iska use karte hain '''
-#= Python ki khasiyat kya hai?
-'''Sir, Python ki teen main khasiyatein hain 
-— pehli, syntax simple aur readable hai. 
-Doosri, type pehle se declare nahi karni padti, Python khud samajh leta hai.
-Teesri, iske bahut saare ready made libraries hain jisse kaam jaldi hota hai.'''
-#opposite
+
+#| Python ki khasiyat kya hai?
+'''Sir, Python ki khasiyatein hain 
+— syntax simple aur readable hai. 
+- type pahle se declierd hota hain batana nahi padta
+Teesri, iske bahut saare ready made libraries hain jisse kaam asaan ho 
+jata hain.'''
+
 
 #| variable
 ''' sir Variable ek container hai jisme hum data store karte hain.
-Jaise — age = 19 — yahan age ek variable ho gya jisme 19 store hai.
-Python mein variable ka data type batane ki zarurat nahi hota 
-— ye khud samajh jaata hai.
-Ise hi  Dynamic Typing kehte hain.'''
+Jaise — age = 19 — yahan age ek variable ho gya jisme 19 store hai. '''
+
 #= Variable banane ke rules?
 '''Sir, kuch rules hain —
-- Variable ka naam letter ya underscore se shuru hoga
+- Variable ka naam, letter ya underscore se shuru hoga
 - Number se shuru nahi ho sakta
 - Beech mein space nahi hoga
 - Python ka koi keyword use nahi kar sakte jaise if, for, while'''
 
 #| data type
-''' Sir, data type matlab Python ko batana ki ye value kis tarah ki hai 
-— number hai, text hai, ya kuch aur."
+''' Python mein data types batate hain ki
+kisi variable mein kis type ka data store hai. 
+Jaise int ka use whole numbers ke liye, 
+float ka decimal numbers ke liye,
+string ka text ke liye aur boolean ka True ya False values ke liye hota hai.
+Iske alawa Python mein aur bhi data type hote hain .
+jaise list, tuple, set 
 ex = age = 18 (int)
 price = 87.78(float)
 valid = True(boolen)
-name = "ram"(str)
-Python mein data type batane ki zarurat nahi hota 
+name = "ram"(str) '''
+
+#= Bool kya hota hai?
+'''Sir, bool do type ka result deta hain  — True ya False. 
+Ye mostly conditions mein use hota hai jaise koi cheez sahi hai ya galat.'''
+
+#| Dynamic Typing
+''' Python mein variable ka data type batane ki zarurat nahi hota 
 — ye khud samajh jaata hai.
 Ise hi  Dynamic Typing kehte hain.'''
-#= Int aur Float mein fark?
-''' Sir, int poora number hota hai jaise 10, 25. 
-Float mein decimal hota hai jaise 3.14, 99.5.'''
-#= Bool kya hota hai?
-'''Sir, bool sirf do values leta hai — True ya False. 
-Ye mostly conditions mein use hota hai jaise koi cheez sahi hai ya galat.'''
-#= Python mein type declare karni padti hai?
-'''Sir, nahi — Python mein type declare nahi karni padti.
-Jo value dete hain Python khud samajh leta hai ki ye int hai,
-string hai ya kuch aur. Ise dynamic typing kehte hain.'''
 
 #| operator
-''' operator ak symbol hain jiske karan value pe operation hota hain.
-Python mein mainly 4 operators  hain — '''
-#= arthmetic operator 
-''' arthmetic operator se do number ke bich mathematic operation hota hain .
-jaise addition , substraction , multiplication , division.'''
-#= relational operator
-''' relational operator do value ke bich compare karta hain 
-aur result bolen me true aur false dega'''
-#= assignment operator 
-'''Sir, assignment operator ka matlab hai kisi variable mein value daalna.
-iska use tabhi hote hain jab ek hi variable ko baar baar update karna ho. '''
-#= logical operator
-'''logical operator multiple values ka condition check karta hain 
-and operator ke liye dono condition ka sach hona jaruri hain
-or ke liye 1 condition ka sach hona jaruri hain
-not operator condition ke ulta result dega'''
+''' Operator ek symbol ya keyword hota hai,
+jiska use hum values par operations perform karne ke liye karte hain.'''
+'''
+### 1. Arithmetic Operator
+Jab numbers par mathematical operations karne hote hain,
+jaise addition, subtraction, multiplication aur division,
+tab arithmetic operators use karte hain.
+Example : +,-,*,/
+### 2. Relational Operator
+Jab do values ko compare karna hota hai,
+tab relational operators use karte hain.
+Inka result `True` ya `False` hota hai.
+Example: >,<,==,!=
+### 3. Assignment Operator
+Jab kisi variable me value assign karni ya
+ uski value update karni hoti hai, tab assignment operators use karte hain.
+Example : =, +=, -=
+### 4. Logical Operator
+Jab multiple conditions ko check karna hota hai,
+tab logical operators use karte hain.
+Example : and, or, not
+- and : Dono conditions `True` honi chahiye.
+- or : Kam se kam ek condition `True` honi chahiye.
+- not : Result ko ulta kar deta hai (`True` ko `False` aur `False` ko `True`).
+'''
+
 #| == aur = mein fark?
 
 #| input/output 
